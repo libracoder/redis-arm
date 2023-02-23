@@ -1,3 +1,35 @@
 apiVersion: v1
-entries: {}
-generated: "2023-02-23T00:03:19.124162209+01:00"
+entries:
+  redis:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.8
+    created: "2023-02-23T09:22:07.157334484+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 88cf3ce1a84cce08ce5f11b0a9ad6160742d8b251909b85c2616bd64a0d69554
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.8.0.tgz
+    version: 17.8.0
+generated: "2023-02-23T09:22:07.153111296+01:00"
