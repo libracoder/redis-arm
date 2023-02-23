@@ -107,6 +107,7 @@ The command removes all the Kubernetes components associated with the chart and 
 
 ### Redis&reg; common configuration parameters
 
+
 | Name                             | Description                                                                           | Value         |
 | -------------------------------- | ------------------------------------------------------------------------------------- | ------------- |
 | `architecture`                   | Redis&reg; architecture. Allowed values: `standalone` or `replication`                | `replication` |
